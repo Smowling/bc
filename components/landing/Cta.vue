@@ -4,7 +4,7 @@
   >
     <h2 class="text-white text-3xl md:text-6xl">Sounds good?</h2>
     <div class="flex mt-5">
-      <LandingLink href="#" styleName="inverted">Get Started</LandingLink>
+      <LandingLink href="/contact" styleName="inverted">Get Started</LandingLink>
     </div>
   </div>
 </template>
