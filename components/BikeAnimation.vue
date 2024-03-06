@@ -6,7 +6,7 @@
       :style="{ '--streak-speed': streakSpeed }"
     >
       <span class="bike" :class="{ shake: fast, move: !fast }">
-        <Icon name="mdi:bike" class="h-12 w-12 transform -scale-x-100" />
+        <Icon :name="fast ? 'mdi:bike-fast' : 'mdi:bike'" class="h-12 w-12" />
       </span>
       <span
         v-for="n in 5"
@@ -15,8 +15,9 @@
           top: Math.random() * 100 + '%',
           animationDelay: Math.random() * 1 + 's',
           animationDuration: streakSpeed,
+          right: 0,
         }"
-        class="streak absolute left-0 w-1/5 h-0.5 bg-gradient-to-r from-transparent to-black/60"
+        class="streak absolute w-1/5 h-0.5 bg-gradient-to-l from-transparent to-black/60"
       ></span>
     </div>
   </template>
@@ -55,7 +56,7 @@
   
     @keyframes streaks {
       to {
-        left: 100%;
+        right: 100%;
       }
     }
   
