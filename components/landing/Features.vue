@@ -4,37 +4,37 @@ const features = [
     title: "Find your LBS",
     description:
       "Use our search and figure out where to go for your bike. We have a map that will help you find the nearest bike shop.",
-    icon: "bx:bxs-briefcase",
+    icon: "bx:search-alt",
   },
   {
-    title: "Check out services",
+    title: "Choose services",
     description:
       "Figure out what type of service and maintanance you want for your bike. We have a list of services that you can choose from.",
-    icon: "bx:bxs-window-alt",
+    icon: "bx:list-check",
   },
   {
     title: "Book a date",
     description:
       "Check avaliable date and book it, if you know workers you can directly choose them.",
-    icon: "bx:bxs-data",
+    icon: "bx:bxs-calendar-check",
   },
   {
     title: "Get notified",
     description:
       "When the time comes, we will mail you with the details of your service and when you should drop off your bike.",
-    icon: "bx:bxs-bot",
+    icon: "bx:notification",
   },
   {
     title: "Wait for it",
     description:
       "Now its all up to the bikeshop. When they are all done you will get a mail that you can pick up your bike.",
-    icon: "bx:bxs-file-find",
+    icon: "bx:alarm-snooze",
   },
   {
     title: "Rate your service",
     description:
       "Now you can share your expirience, rating and reviewing your service.",
-    icon: "bx:bxs-user",
+    icon: "bx:bxs-star-half",
   },
 ];
 </script>
@@ -48,8 +48,8 @@ const features = [
 
   <div class="grid sm:grid-cols-2 md:grid-cols-3 mt-16 gap-16">
     <div v-for="item of features" class="flex gap-4 items-start">
-      <div class="mt-1 bg-black rounded-full p-2 w-8 h-8 shrink-0">
-        <Icon class="text-white" :name="item.icon" />
+      <div class="mt-1 bg-black rounded-full p-2 w-16 h-16 shrink-0">
+        <Icon class="text-white" :name="item.icon" size="48px" />
       </div>
       <div>
         <h3 class="font-semibold text-lg">{{ item.title }}</h3>
