@@ -26,8 +26,9 @@ const open = ref(false);
     <header class="flex flex-col lg:flex-row justify-between items-center my-5">
       <div class="flex w-full lg:w-auto items-center justify-between">
         <a href="/" class="text-lg"
-          ><span class="font-bold text-slate-800">Bike</span
-          ><span class="text-slate-500">check!</span>
+          ><span class="font-bold text-slate-800 text-2xl">Bike</span
+          ><span class="text-slate-500 text-2xl">check</span
+          ><span class="font-bold text-slate-800 text-2xl">!</span>
         </a>
         <div class="block lg:hidden">
           <button @click="open = !open" class="text-gray-800">
