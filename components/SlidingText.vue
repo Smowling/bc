@@ -42,7 +42,7 @@
       }
   
       75%,
-      100% {
+      99% {
         transform: translateY(-75%);
       }
     }

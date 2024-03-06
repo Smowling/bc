@@ -8,13 +8,13 @@ definePageMeta({
   <LandingContainer>
     <LandingSectionhead>
       <template v-slot:title>Contact</template>
-      <template v-slot:desc>You have a bikeshop? Lets talk.</template>
+      <template v-slot:desc>Do you own a bikeshop? Lets talk.</template>
     </LandingSectionhead>
 
     <div class="grid md:grid-cols-2 gap-10 mx-auto max-w-4xl mt-16">
       <div>
         <h2 class="font-medium text-2xl text-gray-800">
-          Contact Bikecheck! creator
+          Contact Bikecheck!
         </h2>
         <p class="text-lg leading-relaxed text-slate-500 mt-3">
           Have something to say? Feature idea?<br />
@@ -24,10 +24,10 @@ definePageMeta({
         </p>
         <div class="mt-5">
           <div class="flex items-center mt-2 space-x-2 text-gray-600">
-            <Icon class="text-gray-400 w-4 h-4" name="uil:envelope" /><a
-              href="mailto:danielsmolka@proton.me"
-              >danielsmolka@proton.me</a
-            >
+            <Icon class="text-gray-400 w-4 h-4" name="uil:envelope" />
+            <a href="mailto:danielsmolka@proton.me">
+              danielsmolka@proton.me
+              </a>
           </div>
         </div>
       </div>
