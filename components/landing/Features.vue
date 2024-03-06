@@ -1,39 +1,39 @@
 <script setup>
 const features = [
   {
-    title: "Bring Your Own Framework",
+    title: "Find your LBS",
     description:
-      "Build your site using Vue, web components, or just plain ol' HTML + JavaScript.",
+      "Use our search and figure out where to go for your bike. We have a map that will help you find the nearest bike shop.",
     icon: "bx:bxs-briefcase",
   },
   {
-    title: "100% Static HTML, No JS",
+    title: "Check out services",
     description:
-      "Nuxt renders your entire page to static HTML, removing all JavaScript from your final build by default.",
+      "Figure out what type of service and maintanance you want for your bike. We have a list of services that you can choose from.",
     icon: "bx:bxs-window-alt",
   },
   {
-    title: "On-Demand Components",
+    title: "Book a date",
     description:
-      "Need some JS? Nuxt can automatically hydrate interactive components when they become visible on the page.  ",
+      "Check avaliable date and book it, if you know workers you can directly choose them.",
     icon: "bx:bxs-data",
   },
   {
-    title: "Broad Integration",
+    title: "Get notified",
     description:
-      "Nuxt supports TypeScript, Scoped CSS, CSS Modules, Sass, Tailwind, Markdown, MDX, and any other npm packages.",
+      "When the time comes, we will mail you with the details of your service and when you should drop off your bike.",
     icon: "bx:bxs-bot",
   },
   {
-    title: "SEO Enabled",
+    title: "Wait for it",
     description:
-      "Automatic sitemaps, RSS feeds, pagination and collections take the pain out of SEO and syndication. It just works!",
+      "Now its all up to the bikeshop. When they are all done you will get a mail that you can pick up your bike.",
     icon: "bx:bxs-file-find",
   },
   {
-    title: "Community",
+    title: "Rate your service",
     description:
-      "Nuxt is an open source project powered by hundreds of contributors making thousands of individual contributions.",
+      "Now you can share your expirience, rating and reviewing your service.",
     icon: "bx:bxs-user",
   },
 ];
@@ -42,12 +42,8 @@ const features = [
 <template>
   <div class="mt-16 md:mt-0">
     <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
-      Everything you need to start a website
+      Everything you need to know
     </h2>
-    <p class="text-lg mt-4 text-slate-600">
-      Nuxt comes batteries included. It takes the best parts of state-of-the-art
-      tools and adds its own innovations.
-    </p>
   </div>
 
   <div class="grid sm:grid-cols-2 md:grid-cols-3 mt-16 gap-16">
