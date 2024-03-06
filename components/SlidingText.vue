@@ -31,7 +31,7 @@
         transform: translateY(0%);
       }
   
-      24%,
+      25%,
       49% {
         transform: translateY(-25%);
       }
