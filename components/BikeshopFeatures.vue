@@ -8,7 +8,7 @@ const features = [
   {
     title: "Services",
     description:
-      "Create services for your customers, so they can book them and get them done.",
+      "Create detailed services for your customers, so they could book and get them done.",
   },
   {
     title: "Calendar",

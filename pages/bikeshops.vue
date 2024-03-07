@@ -2,7 +2,6 @@
     <LandingContainer>
     <LandingSectionhead>
       <template v-slot:title>What to expect</template>
-      <!-- <template v-slot:desc>Do you own a bikeshop? Lets talk.</template> -->
     </LandingSectionhead>
 
     <BikeshopFeatures></BikeshopFeatures>
