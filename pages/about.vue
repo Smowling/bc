@@ -3,20 +3,6 @@ definePageMeta({
   layout: "landing",
 });
 
-const TeamImg1 = "~/assets/img/me.jpg";
-
-const team = [
-  {
-    name: "Daniel Smółka",
-    title: "One man army",
-    avatar: {
-      src: "'~/assets/img/me.jpg'",
-      width: 480,
-      height: 560,
-    },
-  },
-
-];
 </script>
 
 <template>
