@@ -55,7 +55,7 @@ const open = ref(false);
         </div>
       </div>
       <nav
-        class="w-full lg:w-auto mt-2 lg:flex lg:mt-0"
+        class="w-full lg:w-auto mt-2 lg:flex lg:mt-0 justify-center"
         :class="{ block: open, hidden: !open }"
       >
         <ul class="flex flex-col lg:flex-row lg:gap-3">
@@ -68,19 +68,20 @@ const open = ref(false);
             </a>
           </li>
         </ul>
-        <div class="lg:hidden flex items-center mt-3 gap-4">
+      </nav>
+        <!-- <div class="lg:hidden flex items-center mt-3 gap-4">
           <LandingLink href="#" styleName="muted" block size="md"
             >Log in</LandingLink
           >
           <LandingLink href="#" size="md" block>Sign up</LandingLink>
         </div>
-      </nav>
+      
       <div>
         <div class="hidden lg:flex items-center gap-4">
           <a href="#">Log in</a>
           <LandingLink href="#" size="md">Sign up</LandingLink>
         </div>
-      </div>
+      </div> -->
     </header>
   </LandingContainer>
 </template>

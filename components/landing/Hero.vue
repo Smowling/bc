@@ -14,7 +14,7 @@
 
     <div>
       <SlidingText />
-      <h1 class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight">
+      <h1 class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight mt-4">
         Book and service your bike with us
       </h1>
       <p class="text-lg mt-4 text-slate-600 max-w-xl text-justify">
