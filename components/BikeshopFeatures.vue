@@ -1,7 +1,7 @@
 <script setup>
 const features = [
   {
-    title: "Your bikeshop profile",
+    title: "Bikeshop profile",
     description:
       "Use us as your business card, get new customers and keep your business in the know.",
   },

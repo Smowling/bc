@@ -8,5 +8,10 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  runtimeConfig: {
+    public: {
+      NUXT_APP_WEBFORM_ACCESS_KEY: process.env.NUXT_APP_WEBFORM_ACCESS_KEY,
+    },
+  },
   modules: ["nuxt-icon"],
 });

@@ -1,4 +1,8 @@
 <script setup>
+
+const RuntimeConfig = useRuntimeConfig();
+const webform_key = RuntimeConfig.public.NUXT_APP_WEBFORM_ACCESS_KEY
+
 onMounted(() => {
   const form = document.getElementById("form");
   const result = document.getElementById("result");
@@ -48,11 +52,11 @@ onMounted(() => {
       });
   });
 });
+
+
 </script>
 
 <template>
-  <!-- To make this contact form work, create your free access key from https://web3forms.com/
-     Then you will get all form submissions in your email inbox. -->
   <form
     action="https://api.web3forms.com/submit"
     method="POST"
@@ -60,8 +64,7 @@ onMounted(() => {
     class="needs-validation"
     novalidate
   >
-    <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" />
-    <!-- Create your free access key from https://web3forms.com/ -->
+    <input type="hidden" name="access_key" :value="webform_key" />
     <input
       type="checkbox"
       class="hidden"
