@@ -1,7 +1,6 @@
 <script setup>
 
-const RuntimeConfig = useRuntimeConfig();
-const webform_key = RuntimeConfig.public.NUXT_APP_WEBFORM_ACCESS_KEY
+const webform_key = useRuntimeConfig().public.NUXT_APP_WEBFORM_ACCESS_KEY;
 
 onMounted(() => {
   const form = document.getElementById("form");
