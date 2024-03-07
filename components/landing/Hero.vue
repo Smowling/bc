@@ -4,7 +4,7 @@
       <img
         class="rounded-full transition-transform transform hover:scale-125"
         src="~/assets/img/bc.jpg"
-        alt="Starship starts the engine"
+        alt="Bike service"
         loading="eager"
         format="avif"
         width="512"
